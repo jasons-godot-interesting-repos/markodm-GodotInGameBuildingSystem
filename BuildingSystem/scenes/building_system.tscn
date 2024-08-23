@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://cadmckblsurkv"]
+[gd_scene load_steps=14 format=3 uid="uid://788qybj4nql"]
 
 [ext_resource type="Script" path="res://BuildingSystem/Scripts/BuildingSystem.cs" id="1_3aotn"]
 [ext_resource type="PackedScene" uid="uid://c64kie8j0vqw5" path="res://BuildingSystem/scenes/event_bus.tscn" id="2_5c5vp"]

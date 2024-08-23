@@ -1,7 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://hw3jd6q4b72h"]
+[gd_scene load_steps=6 format=3 uid="uid://0v4bnhyw6krd"]
 
 [ext_resource type="Script" path="res://BuildingSystem/Scripts/MouseTile.cs" id="1_n3ki1"]
-[ext_resource type="Texture2D" uid="uid://pddo5efyqprx" path="res://BuildingSystem/assets/textures/grid_cell_transparent.png" id="2_kind0"]
+[ext_resource type="Texture2D" uid="uid://db40c13tfgqra" path="res://BuildingSystem/assets/textures/grid_cell_transparent.png" id="2_kind0"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_o6xcf"]
 transparency = 1

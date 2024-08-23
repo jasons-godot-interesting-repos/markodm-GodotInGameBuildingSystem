@@ -31,6 +31,113 @@
             <summary> Sets the demolition view of the buildable instance. </summary>
             <param name="enabled">A value indicating whether the demolition view is enabled.</param>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.Create">
+            <summary>
+            Cached name for the 'Create' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.Initialize">
+            <summary>
+            Cached name for the 'Initialize' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.ClearObject">
+            <summary>
+            Cached name for the 'ClearObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.SetDemolitionView">
+            <summary>
+            Cached name for the 'SetDemolitionView' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.CreateCollider">
+            <summary>
+            Cached name for the 'CreateCollider' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.CreateDemolishVisual">
+            <summary>
+            Cached name for the 'CreateDemolishVisual' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.MethodName.GetSize">
+            <summary>
+            Cached name for the 'GetSize' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName.BuildableResource">
+            <summary>
+            Cached name for the 'BuildableResource' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName.ObjectInstance">
+            <summary>
+            Cached name for the 'ObjectInstance' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName._body">
+            <summary>
+            Cached name for the '_body' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName._collider">
+            <summary>
+            Cached name for the '_collider' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableInstance.PropertyName._demolitionVisual">
+            <summary>
+            Cached name for the '_demolitionVisual' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableInstance.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableInstance.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystem">
             <summary>
             This is the main class and represents a building system in a 3D environment.
@@ -104,6 +211,386 @@
             <summary> Loads a building system from a file. </summary>
             <param name="filename">The name of the file to load.</param>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName._PhysicsProcess">
+            <summary>
+            Cached name for the '_PhysicsProcess' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName._Input">
+            <summary>
+            Cached name for the '_Input' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName._UnhandledInput">
+            <summary>
+            Cached name for the '_UnhandledInput' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.TryToPlaceObject">
+            <summary>
+            Cached name for the 'TryToPlaceObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.HandleCancelEvent">
+            <summary>
+            Cached name for the 'HandleCancelEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.HandleObjectDemolishEvent">
+            <summary>
+            Cached name for the 'HandleObjectDemolishEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.HandleObjectPlacementEvent">
+            <summary>
+            Cached name for the 'HandleObjectPlacementEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.HandleGridLevelChangeEvent">
+            <summary>
+            Cached name for the 'HandleGridLevelChangeEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.HandleObjectRotationEvent">
+            <summary>
+            Cached name for the 'HandleObjectRotationEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.SetBuildMode">
+            <summary>
+            Cached name for the 'SetBuildMode' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.SetDemolitionMode">
+            <summary>
+            Cached name for the 'SetDemolitionMode' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.Save">
+            <summary>
+            Cached name for the 'Save' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.Load">
+            <summary>
+            Cached name for the 'Load' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.GetLayerMask">
+            <summary>
+            Cached name for the 'GetLayerMask' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.OnDragDelayed">
+            <summary>
+            Cached name for the 'OnDragDelayed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.CompleteDelayedDrag">
+            <summary>
+            Cached name for the 'CompleteDelayedDrag' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.UpdateDragRectangle">
+            <summary>
+            Cached name for the 'UpdateDragRectangle' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.UpdateMouseObjectVisual">
+            <summary>
+            Cached name for the 'UpdateMouseObjectVisual' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.Reset">
+            <summary>
+            Cached name for the 'Reset' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.ClearMouseObject">
+            <summary>
+            Cached name for the 'ClearMouseObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.TogglePauseGame">
+            <summary>
+            Cached name for the 'TogglePauseGame' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.OnNewGameEvent">
+            <summary>
+            Cached name for the 'OnNewGameEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.OnExitGameEvent">
+            <summary>
+            Cached name for the 'OnExitGameEvent' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.MethodName.OnObjectMenuInteract">
+            <summary>
+            Cached name for the 'OnObjectMenuInteract' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.MainCamera">
+            <summary>
+            Cached name for the 'MainCamera' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.BuildableObjectLibrary">
+            <summary>
+            Cached name for the 'BuildableObjectLibrary' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.CellSize">
+            <summary>
+            Cached name for the 'CellSize' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.CellHeight">
+            <summary>
+            Cached name for the 'CellHeight' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.GroundLayerMask">
+            <summary>
+            Cached name for the 'GroundLayerMask' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.FloorLayerMask">
+            <summary>
+            Cached name for the 'FloorLayerMask' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.WallLayerMask">
+            <summary>
+            Cached name for the 'WallLayerMask' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.FreeLayerMask">
+            <summary>
+            Cached name for the 'FreeLayerMask' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.XSize">
+            <summary>
+            Cached name for the 'XSize' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.ZSize">
+            <summary>
+            Cached name for the 'ZSize' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.Levels">
+            <summary>
+            Cached name for the 'Levels' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.DragBehavior">
+            <summary>
+            Cached name for the 'DragBehavior' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.DragThreshold">
+            <summary>
+            Cached name for the 'DragThreshold' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.DragVisualGroundOffset">
+            <summary>
+            Cached name for the 'DragVisualGroundOffset' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName.GroundMouseVisible">
+            <summary>
+            Cached name for the 'GroundMouseVisible' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._demolishLayerMask">
+            <summary>
+            Cached name for the '_demolishLayerMask' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._activeGrid">
+            <summary>
+            Cached name for the '_activeGrid' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._isBuildModeActive">
+            <summary>
+            Cached name for the '_isBuildModeActive' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._isDemolishModeActive">
+            <summary>
+            Cached name for the '_isDemolishModeActive' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._selectedObject">
+            <summary>
+            Cached name for the '_selectedObject' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._currentMousePosition">
+            <summary>
+            Cached name for the '_currentMousePosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._gameStarted">
+            <summary>
+            Cached name for the '_gameStarted' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._lastSnappedPosition">
+            <summary>
+            Cached name for the '_lastSnappedPosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._currentSnappedPosition">
+            <summary>
+            Cached name for the '_currentSnappedPosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._isMousePressed">
+            <summary>
+            Cached name for the '_isMousePressed' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._currentRotation">
+            <summary>
+            Cached name for the '_currentRotation' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._activeLayerMask">
+            <summary>
+            Cached name for the '_activeLayerMask' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._mouseStartPosition">
+            <summary>
+            Cached name for the '_mouseStartPosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._mouseEndPosition">
+            <summary>
+            Cached name for the '_mouseEndPosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._dragRectangleMesh">
+            <summary>
+            Cached name for the '_dragRectangleMesh' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._mousePressPosition">
+            <summary>
+            Cached name for the '_mousePressPosition' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._eventBus">
+            <summary>
+            Cached name for the '_eventBus' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._gridContainer">
+            <summary>
+            Cached name for the '_gridContainer' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._freeObjectsContainer">
+            <summary>
+            Cached name for the '_freeObjectsContainer' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._groundMouseNode">
+            <summary>
+            Cached name for the '_groundMouseNode' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._mouseObject">
+            <summary>
+            Cached name for the '_mouseObject' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._objectMenu">
+            <summary>
+            Cached name for the '_objectMenu' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._mainMenu">
+            <summary>
+            Cached name for the '_mainMenu' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._gridResource">
+            <summary>
+            Cached name for the '_gridResource' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystem.PropertyName._demolishCollider">
+            <summary>
+            Cached name for the '_demolishCollider' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystem.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystem.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystemGrid">
             <summary>
             Represents a grid-based building system in a 3D space.
@@ -175,6 +662,158 @@
         <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.ResetGrid">
             <summary> Resets the building system grid by clearing all objects from the grid cells. </summary>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.Initialize">
+            <summary>
+            Cached name for the 'Initialize' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.SetActive">
+            <summary>
+            Cached name for the 'SetActive' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.GetGlobalPosition">
+            <summary>
+            Cached name for the 'GetGlobalPosition' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.GetCellGlobalPosition">
+            <summary>
+            Cached name for the 'GetCellGlobalPosition' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.GetGridPosition">
+            <summary>
+            Cached name for the 'GetGridPosition' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.GetMouseSnappedPosition">
+            <summary>
+            Cached name for the 'GetMouseSnappedPosition' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.IsValidGridIndex">
+            <summary>
+            Cached name for the 'IsValidGridIndex' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.TryToPlaceObject">
+            <summary>
+            Cached name for the 'TryToPlaceObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.ResetGrid">
+            <summary>
+            Cached name for the 'ResetGrid' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.CreateDebugMesh">
+            <summary>
+            Cached name for the 'CreateDebugMesh' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.MethodName.GetGridIndexWithoutValidation">
+            <summary>
+            Cached name for the 'GetGridIndexWithoutValidation' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._xSize">
+            <summary>
+            Cached name for the '_xSize' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._zSize">
+            <summary>
+            Cached name for the '_zSize' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._cellSize">
+            <summary>
+            Cached name for the '_cellSize' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._cellHeight">
+            <summary>
+            Cached name for the '_cellHeight' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._collisionShape3D">
+            <summary>
+            Cached name for the '_collisionShape3D' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._ground">
+            <summary>
+            Cached name for the '_ground' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._floorLayerMask">
+            <summary>
+            Cached name for the '_floorLayerMask' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._wallLayerMask">
+            <summary>
+            Cached name for the '_wallLayerMask' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.PropertyName._gridVisual">
+            <summary>
+            Cached name for the '_gridVisual' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildingSystemGrid.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.EventBus">
             <summary>
             Represents main event bus that handles various signals related to the building system and game menus.
@@ -219,6 +858,99 @@
         <member name="T:Godot.GodotInGameBuildingSystem.EventBus.MouseTileBodyExitedEventHandler">
             <summary> Signal emitted when the mouse exits a tile body. </summary>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.EventBus.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.EventBus.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.EventBus.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.EventBus.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.EventBus.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.SlotClicked">
+            <summary>
+            Cached name for the 'SlotClicked' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.LevelChanged">
+            <summary>
+            Cached name for the 'LevelChanged' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.BuildModeChanged">
+            <summary>
+            Cached name for the 'BuildModeChanged' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.DemolitionModeChanged">
+            <summary>
+            Cached name for the 'DemolitionModeChanged' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.NewGame">
+            <summary>
+            Cached name for the 'NewGame' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.SaveGame">
+            <summary>
+            Cached name for the 'SaveGame' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.LoadGame">
+            <summary>
+            Cached name for the 'LoadGame' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.ExitGame">
+            <summary>
+            Cached name for the 'ExitGame' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.ToggleMenu">
+            <summary>
+            Cached name for the 'ToggleMenu' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.OpenLoadMenu">
+            <summary>
+            Cached name for the 'OpenLoadMenu' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.OpenSaveMenu">
+            <summary>
+            Cached name for the 'OpenSaveMenu' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.MouseTileBodyEntered">
+            <summary>
+            Cached name for the 'MouseTileBodyEntered' signal.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.EventBus.SignalName.MouseTileBodyExited">
+            <summary>
+            Cached name for the 'MouseTileBodyExited' signal.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.EventBus.GetGodotSignalList">
+            <summary>
+            Get the signal information for all the signals declared in this class.
+            This method is used by Godot to register the available signals in the editor.
+            Do not call this method.
+            </summary>
+        </member>
         <member name="E:Godot.GodotInGameBuildingSystem.EventBus.SlotClicked">
             <inheritdoc cref="T:Godot.GodotInGameBuildingSystem.EventBus.SlotClickedEventHandler"/>
         </member>
@@ -257,6 +989,12 @@
         </member>
         <member name="E:Godot.GodotInGameBuildingSystem.EventBus.MouseTileBodyExited">
             <inheritdoc cref="T:Godot.GodotInGameBuildingSystem.EventBus.MouseTileBodyExitedEventHandler"/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.EventBus.RaiseGodotClassSignalCallbacks(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.EventBus.HasGodotClassSignal(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.GridCell">
             <summary> Represents a cell in a grid-based building system. </summary>
@@ -358,6 +1096,183 @@
             <summary> Sets the visibility of the tile grid. </summary>
             <param name="visible">Whether the tile grid should be visible or not.</param>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseObject.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.SetLayerMask">
+            <summary>
+            Cached name for the 'SetLayerMask' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.UpdateVisual">
+            <summary>
+            Cached name for the 'UpdateVisual' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.ClearMouseObject">
+            <summary>
+            Cached name for the 'ClearMouseObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.ClearGrid">
+            <summary>
+            Cached name for the 'ClearGrid' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.Rotate">
+            <summary>
+            Cached name for the 'Rotate' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.HasMouseObject">
+            <summary>
+            Cached name for the 'HasMouseObject' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.GetYRotationInRadians">
+            <summary>
+            Cached name for the 'GetYRotationInRadians' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.GetYRotationInDegrees">
+            <summary>
+            Cached name for the 'GetYRotationInDegrees' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.IsColliding">
+            <summary>
+            Cached name for the 'IsColliding' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.AreChildrenColliding">
+            <summary>
+            Cached name for the 'AreChildrenColliding' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.SetTileGridVisible">
+            <summary>
+            Cached name for the 'SetTileGridVisible' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.ResetRotation">
+            <summary>
+            Cached name for the 'ResetRotation' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.CreateTilesGrid">
+            <summary>
+            Cached name for the 'CreateTilesGrid' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.OnMouseTileBodyEntered">
+            <summary>
+            Cached name for the 'OnMouseTileBodyEntered' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.MethodName.OnMouseTileBodyExited">
+            <summary>
+            Cached name for the 'OnMouseTileBodyExited' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName.HasXOffset">
+            <summary>
+            Cached name for the 'HasXOffset' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName.HasZOffset">
+            <summary>
+            Cached name for the 'HasZOffset' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._mouseNodeChild">
+            <summary>
+            Cached name for the '_mouseNodeChild' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._mouseMesh">
+            <summary>
+            Cached name for the '_mouseMesh' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._tileGridVisible">
+            <summary>
+            Cached name for the '_tileGridVisible' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._objectContainer">
+            <summary>
+            Cached name for the '_objectContainer' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._gridContainer">
+            <summary>
+            Cached name for the '_gridContainer' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._mouseTile">
+            <summary>
+            Cached name for the '_mouseTile' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._eventBus">
+            <summary>
+            Cached name for the '_eventBus' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseObject.PropertyName._layerMask">
+            <summary>
+            Cached name for the '_layerMask' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseObject.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseObject.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.MouseTile">
             <summary> Represents a tile that is a part of mouse object visual. </summary>
             <remarks> 
@@ -383,6 +1298,123 @@
         <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.IsColliding">
             <summary> Checks if the tile is currently colliding with any other bodies. </summary>
             <returns> True if the tile is colliding, false otherwise. </returns>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseTile.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.SetLayerMask">
+            <summary>
+            Cached name for the 'SetLayerMask' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.SetSize">
+            <summary>
+            Cached name for the 'SetSize' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.SetVisibility">
+            <summary>
+            Cached name for the 'SetVisibility' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.IsColliding">
+            <summary>
+            Cached name for the 'IsColliding' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.AreaBodyEntered">
+            <summary>
+            Cached name for the 'AreaBodyEntered' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.MethodName.AreaBodyExited">
+            <summary>
+            Cached name for the 'AreaBodyExited' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._meshInstance">
+            <summary>
+            Cached name for the '_meshInstance' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._area">
+            <summary>
+            Cached name for the '_area' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._collisionShape3D">
+            <summary>
+            Cached name for the '_collisionShape3D' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._eventBus">
+            <summary>
+            Cached name for the '_eventBus' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._colideCount">
+            <summary>
+            Cached name for the '_colideCount' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._overrideMaterial">
+            <summary>
+            Cached name for the '_overrideMaterial' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MouseTile.PropertyName._layerMask">
+            <summary>
+            Cached name for the '_layerMask' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MouseTile.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MouseTile.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.BuildableResource">
             <summary> Represents a buildable resource in the grid building system. </summary>
@@ -429,6 +1461,83 @@
             <summary> Initializes a new instance of the <see cref="T:Godot.GodotInGameBuildingSystem.BuildableResource"/> class. </summary>
             <remarks> Empty constructor required for Godot serialization. </remarks>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResource.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.Name">
+            <summary>
+            Cached name for the 'Name' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.Description">
+            <summary>
+            Cached name for the 'Description' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.TextureAtlas">
+            <summary>
+            Cached name for the 'TextureAtlas' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.TextureImage">
+            <summary>
+            Cached name for the 'TextureImage' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.Object3DModel">
+            <summary>
+            Cached name for the 'Object3DModel' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.SnapBehaviour">
+            <summary>
+            Cached name for the 'SnapBehaviour' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResource.PropertyName.Size">
+            <summary>
+            Cached name for the 'Size' property.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResource.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResource.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary">
             <summary> Represents a library of <see cref="T:Godot.GodotInGameBuildingSystem.BuildableResource"/> </summary>
             <remarks>
@@ -451,6 +1560,71 @@
             <summary> Gets the buildable resource with the specified name. </summary>
             <param name="name"> The name of the buildable resource. </param>
             <returns> The buildable resource with the specified name, or null if not found. </returns>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.MethodName.GetByName">
+            <summary>
+            Cached name for the 'GetByName' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.PropertyName.BuildableObjects">
+            <summary>
+            Cached name for the 'BuildableObjects' property.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.BuildableResourceLibrary.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.SaveObject">
             <summary> Represents a save object. </summary>
@@ -639,6 +1813,45 @@
         <member name="M:Godot.GodotInGameBuildingSystem.Blur._Ready">
             <summary> Called when the node is ready. </summary>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Blur.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Blur.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Blur.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Blur.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Blur.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Blur.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Blur.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Blur.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Blur.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.InfoInterface">
             <summary> Represents the user interface for displaying information about the game. </summary>
         </member>
@@ -656,6 +1869,101 @@
         <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.OnDemolitionModeChanged(System.Boolean)">
             <summary> Called when the demolition mode changes. </summary>
             <param name="enabled"> Whether demolition mode is enabled or disabled. </param>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.InfoInterface.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.MethodName.OnLevelChanged">
+            <summary>
+            Cached name for the 'OnLevelChanged' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.MethodName.OnBuildModeChanged">
+            <summary>
+            Cached name for the 'OnBuildModeChanged' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.MethodName.OnDemolitionModeChanged">
+            <summary>
+            Cached name for the 'OnDemolitionModeChanged' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.InfoInterface.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.PropertyName.EventBus">
+            <summary>
+            Cached name for the 'EventBus' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.PropertyName._levelLabel">
+            <summary>
+            Cached name for the '_levelLabel' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.PropertyName._buildModeLabel">
+            <summary>
+            Cached name for the '_buildModeLabel' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.InfoInterface.PropertyName._demolitionModeLabel">
+            <summary>
+            Cached name for the '_demolitionModeLabel' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.InfoInterface.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.InfoInterface.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.LoadInterface">
             <summary> Represents the user interface for loading game files. </summary>
@@ -680,11 +1988,221 @@
             <summary> Loads the game with the specified file name. </summary>
             <param name="fileName"> The name of the file to load. </param>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName.OnCloseButtonPressed">
+            <summary>
+            Cached name for the 'OnCloseButtonPressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName.OnLoadButtonPressed">
+            <summary>
+            Cached name for the 'OnLoadButtonPressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName.OnOpenLoadMenu">
+            <summary>
+            Cached name for the 'OnOpenLoadMenu' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName.OnItemActivated">
+            <summary>
+            Cached name for the 'OnItemActivated' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.MethodName.LoadGame">
+            <summary>
+            Cached name for the 'LoadGame' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.LoadInterface.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.PropertyName.EventBus">
+            <summary>
+            Cached name for the 'EventBus' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.PropertyName.itemList">
+            <summary>
+            Cached name for the 'itemList' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.PropertyName.loadButton">
+            <summary>
+            Cached name for the 'loadButton' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.LoadInterface.PropertyName.closeButton">
+            <summary>
+            Cached name for the 'closeButton' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.LoadInterface.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.LoadInterface.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.MainMenu">
             <summary> Represents the main menu of the game. </summary>
         </member>
         <member name="M:Godot.GodotInGameBuildingSystem.MainMenu._Ready">
             <summary> Called when the node enters the scene tree for the first time. </summary>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MainMenu.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.MethodName.OnNewGamePressed">
+            <summary>
+            Cached name for the 'OnNewGamePressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.MethodName.OnSaveGamePressed">
+            <summary>
+            Cached name for the 'OnSaveGamePressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.MethodName.OnLoadGamePressed">
+            <summary>
+            Cached name for the 'OnLoadGamePressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.MethodName.OnExitGamePressed">
+            <summary>
+            Cached name for the 'OnExitGamePressed' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName.EventBus">
+            <summary>
+            Cached name for the 'EventBus' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName.newGame">
+            <summary>
+            Cached name for the 'newGame' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName.saveGame">
+            <summary>
+            Cached name for the 'saveGame' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName.loadGame">
+            <summary>
+            Cached name for the 'loadGame' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.MainMenu.PropertyName.exitGame">
+            <summary>
+            Cached name for the 'exitGame' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.MainMenu.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.MainMenu.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.ObjectMenu">
             <summary> Represents the object menu in the grid building system. </summary>
@@ -695,6 +2213,78 @@
         <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.PopulateObjectGrid(Godot.GodotInGameBuildingSystem.BuildableResourceLibrary)">
             <summary> Populates the object grid with buildable objects from the library. </summary>
             <param name="buildableObjectLibrary">The buildable object library.</param>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.ObjectMenu.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.ObjectMenu.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.ObjectMenu.MethodName.PopulateObjectGrid">
+            <summary>
+            Cached name for the 'PopulateObjectGrid' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.ObjectMenu.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.ObjectMenu.PropertyName.eventBus">
+            <summary>
+            Cached name for the 'eventBus' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.ObjectMenu.PropertyName.slot">
+            <summary>
+            Cached name for the 'slot' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.ObjectMenu.PropertyName.objectContainer">
+            <summary>
+            Cached name for the 'objectContainer' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.ObjectMenu.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.ObjectMenu.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.SaveInterface">
             <summary> Represents the save interface in the UI. </summary>
@@ -714,6 +2304,106 @@
         <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.OnCloseButtonPressed">
             <summary> Handles the button press event for the "Close" button. </summary>
         </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName.OnOpenSaveMenu">
+            <summary>
+            Cached name for the 'OnOpenSaveMenu' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName.OnNewButtonPressed">
+            <summary>
+            Cached name for the 'OnNewButtonPressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName.OnOverwriteButtonPressed">
+            <summary>
+            Cached name for the 'OnOverwriteButtonPressed' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.MethodName.OnCloseButtonPressed">
+            <summary>
+            Cached name for the 'OnCloseButtonPressed' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.SaveInterface.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.PropertyName.EventBus">
+            <summary>
+            Cached name for the 'EventBus' property.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.PropertyName.newButton">
+            <summary>
+            Cached name for the 'newButton' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.PropertyName.overwriteButton">
+            <summary>
+            Cached name for the 'overwriteButton' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.SaveInterface.PropertyName.closeButton">
+            <summary>
+            Cached name for the 'closeButton' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.SaveInterface.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.SaveInterface.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
+        </member>
         <member name="T:Godot.GodotInGameBuildingSystem.Slot">
             <summary> Represents a UI slot for displaying single buildable object. </summary>
         </member>
@@ -731,6 +2421,88 @@
         <member name="M:Godot.GodotInGameBuildingSystem.Slot.SetEventBus(Godot.GodotInGameBuildingSystem.EventBus)">
             <summary> Sets the event bus for the slot. </summary>
             <param name="bus">The event bus.</param>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Slot.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.MethodName._Ready">
+            <summary>
+            Cached name for the '_Ready' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.MethodName._GuiInput">
+            <summary>
+            Cached name for the '_GuiInput' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.MethodName.SetSlotData">
+            <summary>
+            Cached name for the 'SetSlotData' method.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.MethodName.SetEventBus">
+            <summary>
+            Cached name for the 'SetEventBus' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Slot.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.PropertyName.eventBus">
+            <summary>
+            Cached name for the 'eventBus' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.PropertyName.textureRect">
+            <summary>
+            Cached name for the 'textureRect' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.Slot.PropertyName.label">
+            <summary>
+            Cached name for the 'label' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.Slot.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.Slot.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.AnimationUtils">
             <summary> Utility class for animation-related functions. </summary>
@@ -860,6 +2632,76 @@
         </member>
         <member name="M:Godot.GodotInGameBuildingSystem.CameraController._PhysicsProcess(System.Double)">
             <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.CameraController.MethodName">
+            <summary>
+            Cached StringNames for the methods contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.CameraController.MethodName._PhysicsProcess">
+            <summary>
+            Cached name for the '_PhysicsProcess' method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.GetGodotMethodList">
+            <summary>
+            Get the method information for all the methods declared in this class.
+            This method is used by Godot to register the available methods in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.InvokeGodotClassMethod(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.NativeVariantPtrArgs,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.HasGodotClassMethod(Godot.NativeInterop.godot_string_name@)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.CameraController.PropertyName">
+            <summary>
+            Cached StringNames for the properties and fields contained in this class, for fast lookup.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.CameraController.PropertyName.MovementSpeed">
+            <summary>
+            Cached name for the 'MovementSpeed' field.
+            </summary>
+        </member>
+        <member name="F:Godot.GodotInGameBuildingSystem.CameraController.PropertyName.RotationSpeed">
+            <summary>
+            Cached name for the 'RotationSpeed' field.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.SetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.GetGodotClassPropertyValue(Godot.NativeInterop.godot_string_name@,Godot.NativeInterop.godot_variant@)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.GetGodotPropertyList">
+            <summary>
+            Get the property information for all the properties declared in this class.
+            This method is used by Godot to register the available properties in the editor.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.GetGodotPropertyDefaultValues">
+            <summary>
+            Get the default values for all properties declared in this class.
+            This method is used by Godot to determine the value that will be
+            used by the inspector when resetting properties.
+            Do not call this method.
+            </summary>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.SaveGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="M:Godot.GodotInGameBuildingSystem.CameraController.RestoreGodotObjectData(Godot.Bridge.GodotSerializationInfo)">
+            <inheritdoc/>
+        </member>
+        <member name="T:Godot.GodotInGameBuildingSystem.CameraController.SignalName">
+            <summary>
+            Cached StringNames for the signals contained in this class, for fast lookup.
+            </summary>
         </member>
         <member name="T:Godot.GodotInGameBuildingSystem.CryptoUtils">
             <summary> Utility class for cryptographic operations. </summary>

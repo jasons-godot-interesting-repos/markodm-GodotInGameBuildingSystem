@@ -1,4 +1,4 @@
-[gd_scene load_steps=2 format=3 uid="uid://cs2213xujdhn8"]
+[gd_scene load_steps=2 format=3 uid="uid://bvk1j4elm26uj"]
 
 [ext_resource type="Script" path="res://BuildingSystem/Scripts/UI/ObjectMenu.cs" id="1_lc16p"]
 

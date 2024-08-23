@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://113tbe64sr7b"]
+[gd_scene load_steps=6 format=3 uid="uid://boq43yqbwtdt3"]
 
 [ext_resource type="Script" path="res://BuildingSystem/Scripts/BuildingSystemGrid.cs" id="1_grplm"]
 [ext_resource type="Shader" path="res://BuildingSystem/assets/shaders/grid_lines.gdshader" id="2_emnks"]
