@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://bevldosk0ldln"]
 
-[ext_resource type="Texture2D" uid="uid://dxqa10jojyqoy" path="res://BuildingSystem/assets/kenny_survival_colormap.png" id="1_3dg21"]
+[ext_resource type="Texture2D" uid="uid://blye5ru0t5oef" path="res://BuildingSystem/assets/kenny_survival_colormap.png" id="1_3dg21"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jr4wg"]
 resource_name = "colormap"

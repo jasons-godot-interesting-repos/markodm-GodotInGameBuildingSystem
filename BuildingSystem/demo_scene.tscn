@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cadmckblsurkv" path="res://BuildingSystem/scenes/building_system.tscn" id="1_yrvka"]
 [ext_resource type="Resource" uid="uid://ckr31npmaemtt" path="res://BuildingSystem/assets/resources/complete_object_library.tres" id="2_7xl3i"]
-[ext_resource type="Texture2D" uid="uid://dl5itkkntlrbd" path="res://BuildingSystem/assets/textures/grass.png" id="2_j3g63"]
+[ext_resource type="Texture2D" uid="uid://bg7d0k5so25rs" path="res://BuildingSystem/assets/textures/grass.png" id="2_j3g63"]
 [ext_resource type="Script" path="res://BuildingSystem/Scripts/Utils/CameraController.cs" id="3_23awc"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_34pcr"]
